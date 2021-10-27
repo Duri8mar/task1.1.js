@@ -1,0 +1,18 @@
+function getTipsRating(amount) {
+  // write your code here
+  if (amount === 0) {
+    return 'terrible';
+  }
+  if (amount <= 10) {
+    return 'poor';
+  }
+  if (amount <= 20) {
+    return 'good';
+  }
+  if (amount <= 50) {
+    return 'great';
+  }
+  if (amount > 50) {
+    return 'excellent';
+  }
+}
